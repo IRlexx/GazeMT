@@ -1,0 +1,39 @@
+---
+train:
+
+    params:
+        batch_size: 256
+        epoch: 80
+        lr: 0.0003
+        decay: 0.5
+        decay_step: 50
+        warmup: 5
+
+    save:
+        metapath: "/root/autodl-tmp/RESULT/Gaze"
+        folder: gaze360
+        model_name: trans6
+        step: 10
+
+    data:
+        image: "/root/autodl-tmp/Gaze360_3D/Image"
+        label: "/root/autodl-tmp/Gaze360_3D/Label/train.label"
+        header: True
+        name: gaze360
+        isFolder: False
+    val_data:
+        image: "/root/autodl-tmp/Gaze360_3D/Image"
+        label: "/root/autodl-tmp/Gaze360_3D/Label/val.label"
+        header: True
+        name: gaze360
+        isFolder: False
+        
+    pretrain:
+        enable: False
+        path: ""
+        device: 0
+
+    device: 0
+
+    reader: reader
+

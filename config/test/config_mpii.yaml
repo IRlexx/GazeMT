@@ -1,0 +1,20 @@
+---
+test:
+
+    load:
+        begin_step: 5
+        end_step: 80
+        steps: 5
+
+    data: 
+        image: "/root/autodl-tmp/MPIIFaceGaze_2D/Image"
+        label: "/root/autodl-tmp/MPIIFaceGaze_2D/Label"
+        name: mpii
+        header: True
+        isFolder: True
+
+    savename: "evaluation"
+
+    device: 0
+
+    reader: reader

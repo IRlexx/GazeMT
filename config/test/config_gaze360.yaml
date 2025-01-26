@@ -1,0 +1,21 @@
+---
+test:
+
+    load:
+        begin_step: 10
+        end_step: 100
+        steps: 10
+
+    data: 
+        image: "/root/autodl-tmp/Gaze360_3D/Image"
+        label: "/root/autodl-tmp/Gaze360_3D/Label/test.label"
+        name: gaze360
+        header: True
+        isFolder: False
+
+    savename: "evaluation"
+
+    device: 0
+
+    reader: reader
+

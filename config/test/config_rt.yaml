@@ -1,0 +1,20 @@
+---
+test:
+
+    load:
+        begin_step: 10
+        end_step: 80
+        steps: 10
+
+    data: 
+        image: "/root/autodl-tmp/RTGENE_3D/RTGene"
+        label: "/root/autodl-tmp/RTGENE_3D/Label/test"  
+        name: rt
+        header: True
+        isFolder: True
+
+    savename: "evaluation"
+
+    device: 0
+
+    reader: reader

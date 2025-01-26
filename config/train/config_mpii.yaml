@@ -1,0 +1,34 @@
+---
+train:
+
+    params:
+        batch_size: 128
+        epoch: 80
+        lr: 0.0005
+        decay: 0.5
+        decay_step: 30
+        warmup: 5
+
+    save:
+        metapath: "/root/autodl-tmp/RESULT/PRE-train-model5/128-60-30"
+        folder: mpii
+        model_name: trans6
+        step: 5
+
+    data:
+        image: "/root/autodl-tmp/MPIIFaceGaze_2D/Image"
+        label: "/root/autodl-tmp/MPIIFaceGaze_2D/Label"
+        header: True
+        name: mpii
+        isFolder: True
+        
+    pretrain:
+        enable: True
+        path: "/root/autodl-tmp/PRE/ETH-128-30.pt"
+        device: 0
+
+
+    device: 0
+
+    reader: reader
+
