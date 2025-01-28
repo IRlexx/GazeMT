@@ -12,9 +12,10 @@ We use pytorch 2.3.0.
 
 The code in this article is based on the framework of [GazeTR Reference](https://github.com/yihuacheng/GazeTR), and its usage and commands are consistent with it.
 To run the code, follow these steps. 
-1. Prepare the required dataset. 2.
+1. Prepare the required dataset. 
 2. Modify the configuration file as needed.
 3. Execute the training and testing commands.
+
 The following is an example of training and testing on the Gaze360 dataset:
 If you want to train on the Gaze360 dataset, you should first modify the config file, and then use the following command to perform triple-fold cross-training:
 ```python 
