@@ -17,7 +17,9 @@ To run the code, follow these steps.
 3. Execute the training and testing commands.
 
 The following is an example of training and testing on the Gaze360 dataset:
-If you want to train on the Gaze360 dataset, you should first modify the config file, and then use the following command to perform triple-fold cross-training:
+
+To train on the Gaze360 dataset, you should first modify the configuration file as required and then perform triple cross-training using the following commands:
+
 ```python 
         python trainer/total.py -s config/train/config_gaze360.yaml 
 ```
