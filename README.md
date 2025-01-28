@@ -1,7 +1,8 @@
 # Gaze MT
 
 This repository is code from the paper “**Enhancing Industrial Big Data Visualization through Multiscale Gaze Estimation and Personalized Dashboard Design**”.
-Our code is built in the framework of [GazeTR Reference](https://github.com/yihuacheng/GazeTR).
+Our code is built in the framework of [GazeTR](https://github.com/yihuacheng/GazeTR).We are very grateful for the help we received from GazeTR's work.
+
 
 ## Requirements
 
